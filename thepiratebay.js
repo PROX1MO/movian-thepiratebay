@@ -29,7 +29,7 @@
     var html = require('showtime/html');
     settings.createInfo("info", config.logo, "Plugin developed by " + config.pluginInfo.author + ". \n");
     settings.createDivider('Settings');
-    settings.createString("domain", "Domain", "https://thepiratebay3.org", function (v) {
+    settings.createString("domain", "Domain", "https://thepiratebay.org", function (v) {
         service.domain = v;
     });
     var nextUrlsRe = /<a href="([\s\w\/]*?)"><img[\s\S]{0,70}?alt="Next"\/?><\/a>/m;
