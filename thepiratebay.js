@@ -164,7 +164,7 @@
 
     plugin.addSearcher(plugin.getDescriptor().title, config.logo, function (page, query) {
         //Example URL: https://thepiratebay.se/search/one/0/99/0
-        var url = config.urls.base + '/search/' + encodeURIComponent(query) + '/0/99/0',
+        var url = config.urls.base + '/search/' + encodeURIComponent(query) + '/0/99/100,200,500',
             nextUrl, tryToSearch = true, i,
             doc, dom, link, linkUrl, linkTitle, items;
 
