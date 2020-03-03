@@ -209,3 +209,8 @@
         }
     });
 })(this);
+/*===========================================================
+ I just dont know how to search. The only method is to use general search in home screen but it gives results to all plugins.
+Other plugins can bring individual results when you type pluginID:search:Text, but this does not comply for thepiratebay.
+Any ideas?
+============================================================*/
