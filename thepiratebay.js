@@ -162,7 +162,7 @@
         });
     });
 
-    plugin.addSearcher(plugin.getDescriptor().id, config.logo, function (page, query) {
+    plugin.addSearcher(plugin.getDescriptor().title, config.logo, function (page, query) {
         //Example URL: https://thepiratebay.se/search/one/0/99/0
         var url = config.urls.base + '/search/' + encodeURIComponent(query) + '/0/99/0',
             nextUrl, tryToSearch = true, i,
